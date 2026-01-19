@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import { NAV_ITEMS, FEATURES, SECTORS, NEWSLETTER_ARCHIVE } from './constants';
+import { NAV_ITEMS, FEATURES, SECTORS, NEWSLETTER_ARCHIVE } from './constants.ts';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);

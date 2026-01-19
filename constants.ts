@@ -1,5 +1,5 @@
 
-import { NavItem, FeatureCard, SectorCard, NewsletterArchive } from './types';
+import { NavItem, FeatureCard, SectorCard, NewsletterArchive } from './types.ts';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: '서비스 개요', href: '#overview' },
